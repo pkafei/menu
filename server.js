@@ -15,11 +15,11 @@ app.get('/', function(req, res) {
 });
 
 app.get('/menu', function(req, res) {
-	res.render('./assets/menu.html');
+	res.render('menu.html');
 });
 
-app.get('/order', function(req, res) {
-	res.render('/assets/order.html');
+app.get('/about', function(req, res) {
+	res.render('about.html');
 });
 
 app.get('/contact', function(req, res) {
