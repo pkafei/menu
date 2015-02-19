@@ -22,8 +22,8 @@ app.get('/order', function(req, res) {
 	res.render('/assets/order.html');
 });
 
-app.get('/help', function(req, res) {
-	res.render('help.html');
+app.get('/contact', function(req, res) {
+	res.render('contact.html');
 });
 
 // Setting up local port
